@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+    
+        <title>Following the Rouxles</title>
+    
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    
+        <link href="css/scrolling-nav.css" rel="stylesheet">
+    
+        <link rel="stylesheet" href="mystyles.css">
+    
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito|Open+Sans|Roboto" rel="stylesheet"> 
+
+        <script src="js/svgjs/src/svg.js"></script>
+        <script src="js/visualcube/dist/main.js"></script>
+
+        <script>
+        document.addEventListener("DOMContentLoaded", function(event) { 
+            let SRVisualizer = window['sr-visualizer'];
+            SRVisualizer.cubePNG(document.getElementById('example'))
+        });
+
+        function run() {
+            SRVisualizer.cubePNG(document.getElementById('demo'));
+        }
+        </script>
+        
+    </head>
+    <body>
+        <div id="demo"></div>
+        <button type="button" onclick='run()'>Click Me!</button>
+    </body>
+
+</html>
