@@ -569,7 +569,7 @@ var o_arr = document.getElementById("o_arr");
 var menu = document.getElementById("o_menu");
 var cols = ["white","yellow","green","blue","red","orange"];
 var oris = window.localStorage.getItem("orientations");
-if(oris === null) oris = "100000000000000000000000";
+if(oris === null) oris = "010000000000000000000000";
 
 var k = 0;
 for(var i=0; i<6; i+=2)
