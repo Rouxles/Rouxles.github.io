@@ -137,7 +137,6 @@ function gc(s)
 
 function check_controls()
 {
-	console.log(window.localStorage.getItem("controls"))
 	var lsc = window.localStorage.getItem("controls");
 	if(lsc !== null)
 	{
@@ -146,8 +145,6 @@ function check_controls()
 		key_mp = +cs[1];
 		key_u = +cs[2];
 		key_up = +cs[3];
-		key_mp2 = 79;
-		key_up2 = 68;
 	}
 }
 
@@ -359,10 +356,8 @@ function keydown(e)
 		{
 			if(e.keyCode == key_m) { start_timer(); do_move("M");  }
 			if(e.keyCode == key_mp) { start_timer(); do_move("M'"); }
-			if(e.keyCode == key_mp2) { start_timer(); do_move("M'"); }
 			if(e.keyCode == key_u) { start_timer(); do_move("U"); }
 			if(e.keyCode == key_up) { start_timer(); do_move("U'"); }
-			if(e.keyCode == key_up2) { start_timer(); do_move("U'"); }
 		}
 		else
 		{
@@ -545,8 +540,20 @@ function genstate()
 	return new LSECube(scramble);
 }
 
-function upd_ori() {
-	window.localStorage.setItem("orientations","010000000000000000000000");
+function upd_ori()
+{
+	oris = "";
+	for(var i=0; i<6; i+=2)
+	{
+		for(var j=0; j<6; j++)
+		{
+			if(j==i||j==i+1) continue;
+			var el0 = gc("cb"+i+"_"+j);
+			var el1 = gc("cb"+(i+1)+"_"+j);
+			oris += (el0?"1":"0") + (el1?"1":"0");
+		}
+	}
+	window.localStorage.setItem("orientations",oris);
 }
 
 function o_menu()
