@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Mono|Roboto+Slab&display=swap');
+
+a.branding-font, a.branding-font.hover{
+    font-size: large;
+    color: white;
+    margin-right: 10px;
+    border: none;
+    text-decoration: none !important;
+
+}
+
+.title {
+    font-family: "Roboto Slab", serif;
+}
+
+.content {
+    font-family: "Open Sans", sans-serif;
+}
+
+.monospace {
+    font-family: "Roboto Mono", monospace;
+}
+
+.nav-hover {
+    color: black;
+}
+
+.navbar-padding {
+    padding-bottom: 80px;
+}
+
+.bot-padding {
+    padding-bottom: 40px;
+}
+
+.margin-surround {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.large-font {
+    font-size: 1.1em
+}
+
+#intro-box {
+    background-color: #CCFF00;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+#main-title {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+#main-subtitle {
+    grid-column: 2/3;
+    grid-row: 3;
+}
+
+#large-title {
+    grid-column: 1/4;
+    grid-row: 2/3;
+}
+
+#large-subtitle {
+    grid-column: 1/4;
+    grid-row: 3;
+}
+
+.horizontal-line {
+    height: 2px;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    background-color: #aaa
+}
+
+.block-image {
+    width: 80%;
+}
+
+.txt-bold {
+    font-weight: bold;
+}
+
+.radius-1 {
+    border-radius: 1em;
+}
