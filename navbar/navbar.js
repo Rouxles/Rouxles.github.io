@@ -1,4 +1,4 @@
-document.write( '<navbar class=\"navbar navbar-expand-sm bg-dark navbar-dark fixed-top justify-content-center\">\n' );
+document.write( '<navbar class=\"navbar navbar-expand-sm bg-dark navbar-dark fixed-top\">\n' );
 document.write( '\n' );
 document.write( '    <a class=\"branding-font\" href=\"/index.html\">\n' );
 document.write( '        Rouxles' );

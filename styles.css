@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Mono|Roboto+Slab&display=swap');
 
+p {
+    font-size:1.1em;
+}
+
 a.branding-font, a.branding-font.hover{
     font-size: large;
     color: white;
@@ -29,8 +33,9 @@ a.branding-font, a.branding-font.hover{
     padding-bottom: 80px;
 }
 
-.bot-padding {
-    padding-bottom: 40px;
+.padding {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .margin-surround {
@@ -49,33 +54,25 @@ a.branding-font, a.branding-font.hover{
 }
 
 #intro-box {
+    margin-top:36px;
     background-color: #CCFF00;
-    height: 300px;
+    height: 200px;
     width: 100%;
     text-align: center;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    display: table;
 }
 
-#main-title {
-    grid-column: 2/3;
-    grid-row: 2/3;
+.darker-box {
+    background-color: #f5f5f5;
 }
 
-#main-subtitle {
-    grid-column: 2/3;
-    grid-row: 3;
+.vertical-align {
+    display: table-cell;
+    vertical-align: middle;
 }
 
-#large-title {
-    grid-column: 1/4;
-    grid-row: 2/3;
-}
-
-#large-subtitle {
-    grid-column: 1/4;
-    grid-row: 3;
+.horizontal-align {
+    margin: auto;
 }
 
 .horizontal-line {
@@ -94,8 +91,4 @@ a.branding-font, a.branding-font.hover{
 
 .txt-bold {
     font-weight: bold;
-}
-
-.radius-1 {
-    border-radius: 1em;
 }
