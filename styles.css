@@ -1,16 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Mono|Roboto+Slab&display=swap');
 
+body {
+    background-color: rgb(50,50,50);
+    color: white;
+}
+
 p {
     font-size:1.1em;
 }
 
-a.branding-font, a.branding-font.hover{
+a.branding-font, a.branding-font.hover a#navbar{
     font-size: large;
-    color: white;
+    color: white !important;
     margin-right: 10px;
     border: none;
     text-decoration: none !important;
 
+}
+
+a.link {
+    text-decoration: underline;
+    color: white !important; 
 }
 
 .title {
@@ -56,6 +66,7 @@ a.branding-font, a.branding-font.hover{
 #intro-box {
     margin-top:36px;
     background-color: #CCFF00;
+    color: rgb(50,50,50);
     height: 200px;
     width: 100%;
     text-align: center;
@@ -63,7 +74,7 @@ a.branding-font, a.branding-font.hover{
 }
 
 .darker-box {
-    background-color: #f5f5f5;
+    background-color: rgb(55,55,55);
 }
 
 .vertical-align {
@@ -92,3 +103,4 @@ a.branding-font, a.branding-font.hover{
 .txt-bold {
     font-weight: bold;
 }
+
