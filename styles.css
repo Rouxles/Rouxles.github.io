@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Mono|Roboto+Slab&display=swap');
+
+body {
+    background-color: rgb(50,50,50);
+    color: white;
+}
+
+p {
+    font-size:1.1em;
+}
+
+a.branding-font, a.branding-font.hover a#navbar{
+    font-size: large;
+    color: white !important;
+    margin-right: 10px;
+    border: none;
+    text-decoration: none !important;
+
+}
+
+a.link {
+    text-decoration: underline;
+    color: white !important; 
+}
+
+.title {
+    font-family: "Roboto Slab", serif;
+}
+
+.content {
+    font-family: "Open Sans", sans-serif;
+}
+
+.monospace {
+    font-family: "Roboto Mono", monospace;
+}
+
+.nav-hover {
+    color: black;
+}
+
+.navbar-padding {
+    padding-bottom: 80px;
+}
+
+.padding {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.margin-surround {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.large-font {
+    font-size: 1.1em
+}
+
+#intro-box {
+    margin-top:36px;
+    background-color: #CCFF00;
+    color: rgb(50,50,50);
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    display: table;
+}
+
+.darker-box {
+    background-color: rgb(55,55,55);
+}
+
+.vertical-align {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.horizontal-align {
+    margin: auto;
+}
+
+.horizontal-line {
+    height: 2px;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    background-color: #aaa
+}
+
+.block-image {
+    width: 80%;
+}
+
+.txt-bold {
+    font-weight: bold;
+}
+
