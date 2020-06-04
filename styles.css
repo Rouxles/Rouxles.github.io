@@ -65,7 +65,7 @@ a.link {
 
 #intro-box {
     margin-top:36px;
-    background-color: #CCFF00;
+    background-color: #fff;
     color: rgb(50,50,50);
     height: 200px;
     width: 100%;
@@ -104,3 +104,6 @@ a.link {
     font-weight: bold;
 }
 
+.ccff00-bottom {
+    border-bottom: 10px solid #ccff00;
+}
