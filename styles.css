@@ -67,7 +67,7 @@ a.link {
     margin-top:36px;
     background-color: rgb(55,55,55);
     color: #fff;
-    height: 200px;
+    height: 150px;
     width: 100%;
     text-align: center;
     display: table;
@@ -105,5 +105,5 @@ a.link {
 }
 
 .ccff00-bottom {
-    border-bottom: 2px solid #ccff00;
+    border-bottom: 1px solid #ccff00;
 }
